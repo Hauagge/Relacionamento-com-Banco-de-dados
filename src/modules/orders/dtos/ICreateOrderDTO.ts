@@ -8,5 +8,5 @@ interface IProduct {
 
 export default interface ICreateOrderDTO {
   customer: Customer;
-  products: IProduct[];
+  listProducts: IProduct[];
 }
